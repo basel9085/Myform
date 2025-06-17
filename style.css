@@ -1,0 +1,47 @@
+body {
+    background-image: url("./GettyImages-631007442-scaled-e1725499273334.jpg");
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+}
+h1 {
+    display:inline-block;
+    border-style: ridge;
+    border-color: black;
+    border-width: 10px;
+    border-radius: 20px;
+    background-color: rgb(52, 182, 0);
+}
+.myform {
+    border-style: groove;
+    background-color: rgba(173, 230, 181, 0.7);
+    border-left: 8px solid rgb(0, 255, 42);
+}
+p{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+.radio {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.WORK{
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.text {
+    font-size: 20px;
+    display: inline;
+    border-style: inherit;
+    border-radius: 20px;
+    border-color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.8);
+}
