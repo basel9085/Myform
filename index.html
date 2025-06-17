@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+    <head>
+        <title>My first form</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Nvidia job application</h1><br>
+        <img src="./nvidia-logo-vert.png" width="400px" length="400px">
+<form action="/google.com" class="myform">
+    <label for="firstname">First Name:</label>
+        <input type="text" id="firstname" name="firstname" placeholder="john" required><br><br>
+    <label for="secondname">Second Name:</label>
+        <input type="text" id="secondname" name="secondname" placeholder="mark" required><br><br>
+    <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="mygmail123@gmail.com" required><br><br>
+    <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" placeholder="0123456789" required><br><br>
+    <label for="country">Country</label>
+        <select id="country" name="country" required>
+            <option value="" disabled selected></option>
+            <option value="USA">USA</option>
+            <option value="Canada">Canada</option>
+            <option value="UK">UK</option>
+            <option value="egypt">Egypt</option>
+            <option value="UAE">UAE</option>
+            <option value="India">India</option>
+            <option value="China">China</option>
+            <option value="Japan">Japan</option>
+            <option value="Germany">Germany</option>
+            <option value="France">France</option>
+            <option value="Italy">Italy</option>
+            <option value="Spain">Spain</option>
+            <option value="Brazil">Brazil</option>
+            <option value="Australia">Australia</option>
+        </select><br><br>
+    <label for="age">Age</label>
+        <input type="number" id="age" name="age" min="18" max="50" maxlength="2" placeholder="18-50years" required><br><br>
+    <label for="cv">Upload your cv(.pdf,.doc,.docx)</label>
+       <input type="file" id="cv" name="cv" accept=".pdf, .doc, .docx" required><br><br>
+        
+       <header class="WORK">
+       <p>What is your prefered work location?</p>
+    <label for="preferedoffice" class="radio">Work from office</label>
+        <input type="radio" id="preferedoffice" name="preferedwork" required>
+    <label for="preferedhome" class="radio">Work from home</label>
+        <input type="radio" id="preferedhome" name="preferedwork" required>
+    <label for="preferedhybrid" class="radio">Hybrid</label>
+        <input type="radio" id="preferedhybrid" name="preferedwork" required><br><br>
+       </header><br><br>
+       <h2 class="text">Ready for Liftoff Nvidia HQ</h2><br>
+       <p>Watch the video below to know more about Nvidia</p><br>
+<video width="500px" controls>
+    <source src="./Ready for Liftoff(720P_HD).mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+<br><br><br>
+<h2 class="text">Tell us about yourself</h2><br><br>
+<label for="comment">Comment:</label>
+    <textarea id="comment" name="comment" placeholder="comments and some skills about yourself (optional)" rows="4" cols="50"></textarea><br><br>
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+</form>
+    </body>
+</html>
